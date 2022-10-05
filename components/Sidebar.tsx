@@ -13,7 +13,7 @@ function Sidebar(props) {
   return (
     <div
       id="Sidebar"
-      className={`absolute top-0 left-0 md:fixed z-50 w-full md:inset-0  md:h-full  ease-in-out duration-300
+      className={`absolute top-0 left-0 md:fixed z-50 w-full md:inset-0  h-screen md:h-full bg-default md:bg-transparent drop-shadow-lg md:drop-shadow-none overflow-auto ease-in-out duration-300
       ${
         props.showSidebar
           ? "md:translate-x-0 translate-y-0"
@@ -21,8 +21,7 @@ function Sidebar(props) {
       }`}
     >
       {" "}
-      <div className="fixed z-40 min-h-screen min-w-screen bg-black opacity-70 bg-cover"></div>
-      <div className="relative pl-4 pb-4 md:pb-0 w-full max-w-2xl h-full md:h-viewscreen font-quicksand bg-default text-textpink drop-shadow-lg ">
+      <div className="relative pl-4 pb-4 md:pb-0 w-full max-w-2xl h-full md:h-viewscreen font-quicksand md:bg-default md:drop-shadow-lg text-textpink  ">
         <div className="flex justify-between place-content-center items-start p-4  text-3xl">
           <div className="pt-3 font-extrabold">Categories</div>
           <button onClick={() => props.closeBar(false)}>

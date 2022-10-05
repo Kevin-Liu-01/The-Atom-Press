@@ -15,7 +15,7 @@ function Home() {
             {/*Row 1*/}
             <a
               href="/article"
-              className="flex row-span-1 drop-shadow-lg md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out"
+              className="flex row-span-1 drop-shadow-lg mt-8 md:mt-0 md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out"
             >
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">

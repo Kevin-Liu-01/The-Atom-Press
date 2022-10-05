@@ -13,7 +13,7 @@ function Category(props) {
 
       <div className="pt-3 ">
         {/*Header */}
-        <div className="grid grid-cols-3 mx-auto max-w-[100rem] my-8 md:my-0 px-8 ">
+        <div className="grid grid-cols-4 md:grid-cols-3 mx-auto max-w-[100rem] my-8 md:my-0 px-8 ">
           <button
             className="inline-flex my-auto justify-start"
             onClick={() => setView(!view)}
@@ -34,7 +34,7 @@ function Category(props) {
               />
             </svg>
           </button>
-          <header className="flex justify-center  font-exo text-4xl mx-auto max-w-[100rem]  font-extrabold">
+          <header className="flex justify-center col-span-2 md:col-span-1 font-exo text-4xl mx-auto max-w-[100rem]  font-extrabold">
             <div className="flex text-center md:mx-0 text-bordermaroon pb-4 border-b-[3px] border-bordermaroon">
               {props.title}
             </div>
