@@ -21,8 +21,8 @@ function Sidebar(props) {
       }`}
     >
       {" "}
-      <div className="absolute z-40 min-h-screen min-w-screen bg-black opacity-20"></div>
-      <div className="relative pl-4  w-full max-w-2xl h-full md:h-viewscreen font-quicksand bg-default text-textpink drop-shadow-lg ">
+      <div className="fixed z-40 min-h-screen min-w-screen bg-black opacity-70 bg-cover"></div>
+      <div className="relative pl-4 pb-4 md:pb-0 w-full max-w-2xl h-full md:h-viewscreen font-quicksand bg-default text-textpink drop-shadow-lg ">
         <div className="flex justify-between place-content-center items-start p-4  text-3xl">
           <div className="pt-3 font-extrabold">Categories</div>
           <button onClick={() => props.closeBar(false)}>
@@ -45,19 +45,27 @@ function Sidebar(props) {
           <a
             key={item.name}
             href={item.href}
-            className="flex rounded-l-lg justify-between place-content-center items-start p-4 font-headerbold text-2xl hover:bg-defaultDark hover:text-default  duration-150"
+            className={`flex mt-2 rounded-l-lg justify-between place-content-center items-start p-4 font-headerbold text-2xl hover:bg-defaultDark  hover:text-default  duration-150 ${
+              item.name === props.page ? "bg-defaultDark text-default" : ""
+            }`}
           >
             {item.name}
           </a>
         ))}
 
         <div className="border border-b-4 border-defaultDark mr-4 my-4 rounded-full bg-defaultDark"></div>
-        <div className="flex rounded-l-lg justify-between place-content-center items-start p-4  text-2xl hover:bg-defaultDark hover:text-default  duration-150">
+        <a
+          href="/about"
+          className="flex rounded-l-lg justify-between place-content-center items-start p-4  text-2xl hover:bg-defaultDark hover:text-default  duration-150"
+        >
           About Us
-        </div>
-        <div className="flex rounded-l-lg justify-between place-content-center items-start p-4  text-2xl hover:bg-defaultDark hover:text-default  duration-150">
+        </a>
+        <a
+          href="/"
+          className="flex rounded-l-lg justify-between place-content-center items-start p-4  text-2xl hover:bg-defaultDark hover:text-default  duration-150"
+        >
           Submit Here
-        </div>
+        </a>
       </div>
     </div>
   );

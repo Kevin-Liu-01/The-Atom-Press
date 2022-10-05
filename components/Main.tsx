@@ -4,21 +4,19 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-default pb-14">
-      {/*header section*/}
-
-      <div className="  items-center">
-        {/*Navbar*/}
-        <Navbar page="Home" />
-      </div>
-      {/*header section 2*/}
+    <div className="min-h-screen bg-default pb-14 ">
+      {/*Navbar*/}
+      <Navbar page="Home" />
 
       <div className=" pt-3">
-        <div className="px-8 mx-auto max-w-[100rem] grid grid-rows-1 grid-cols-1 md:grid-cols-7 gap-8">
+        <div className="px-8 mx-auto max-w-[100rem]  grid grid-rows-1 grid-cols-1 md:grid-cols-7 gap-8">
           {/*Section 1*/}
-          <div className="grid col-span-1 md:col-span-3 md:mt-0 ">
+          <div className="grid col-span-1 md:col-span-3 md:mt-0 gap-8">
             {/*Row 1*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <a
+              href="/article"
+              className="flex row-span-1 drop-shadow-lg md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out"
+            >
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -36,9 +34,12 @@ function Home() {
                   ></img>
                 </div>
               </div>
-            </div>
+            </a>
             {/*Row 2*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <a
+              href="/article"
+              className="flex row-span-1 drop-shadow-lg md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out"
+            >
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -56,13 +57,13 @@ function Home() {
                   ></img>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           {/*Section 2*/}
-          <div className="grid col-span-1 md:col-span-4">
+          <div className="grid col-span-1 md:col-span-4 gap-8">
             {/*Row 1*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 md:mt-10 mt-2 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <div className="flex row-span-1 drop-shadow-lg md:mr-12  w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -90,7 +91,7 @@ function Home() {
               </div>
             </div>
             {/*Row 2*/}
-            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <div className="flex drop-shadow-lg md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Recently:
@@ -116,7 +117,7 @@ function Home() {
               </div>
             </div>
             {/*Row 3*/}
-            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <div className="flex drop-shadow-lg md:mr-12  w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Lorem Ipsum
