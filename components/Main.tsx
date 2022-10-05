@@ -16,7 +16,7 @@ function Home() {
       <div className=" pt-3">
         <div className="px-8 mx-auto max-w-[100rem] grid grid-rows-1 grid-cols-1 md:grid-cols-7 gap-8">
           {/*Section 1*/}
-          <div className="grid col-span-1 md:col-span-3">
+          <div className="grid col-span-1 md:col-span-3 md:mt-0 ">
             {/*Row 1*/}
             <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
@@ -62,7 +62,7 @@ function Home() {
           {/*Section 2*/}
           <div className="grid col-span-1 md:col-span-4">
             {/*Row 1*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
+            <div className="flex row-span-1 drop-shadow-lg md:mr-12 md:mt-10 mt-2 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -126,7 +126,7 @@ function Home() {
                   <div className="font-quicksand text-2xl">
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s, when an unknown
                       printer took a galley of type and scrambled it to make a
                       type specimen book. It has survived not only five

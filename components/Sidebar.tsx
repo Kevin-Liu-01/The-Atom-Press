@@ -13,8 +13,12 @@ function Sidebar(props) {
   return (
     <div
       id="Sidebar"
-      className={`fixed z-50 w-full md:inset-0  md:h-full  ease-in-out duration-300
-      ${props.showSidebar ? "translate-x-0 " : "translate-x-[-100%]"}`}
+      className={`absolute top-0 left-0 md:fixed z-50 w-full md:inset-0  md:h-full  ease-in-out duration-300
+      ${
+        props.showSidebar
+          ? "md:translate-x-0 translate-y-0"
+          : "md:translate-x-[-100%] translate-y-[-100%]"
+      }`}
     >
       {" "}
       <div className="absolute z-40 min-h-screen min-w-screen bg-black opacity-20"></div>
