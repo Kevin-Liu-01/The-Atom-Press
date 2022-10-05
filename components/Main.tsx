@@ -81,7 +81,7 @@ function Home() {
                       bowels of the High Technology High School hive mind!{" "}
                     </p>
 
-                    <p className="pt-4">
+                    <p className="pt-6">
                       Ready to begin your deep dive into this school? Click the
                       menu button to browse categories, or check out the
                       featured articles displayed right here on the home page!
@@ -99,7 +99,7 @@ function Home() {
 
                 <div className="position-relative py-8 ">
                   <ul className="font-quicksand text-2xl">
-                    <li>1. NFL Week 4: Jets are King</li>
+                    <li>1. Get Ready for the PSAT on Oct. 12</li>
 
                     <li className="pt-4">
                       2. Kanye West introduced a new milk derivative food,

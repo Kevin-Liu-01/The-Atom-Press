@@ -34,7 +34,7 @@ function Category(props) {
               />
             </svg>
           </button>
-          <header className="flex justify-center col-span-2 md:col-span-1 font-exo text-4xl mx-auto max-w-[100rem]  font-extrabold">
+          <header className="flex justify-center col-span-2 md:col-span-1 font-exo text-3xl md:text-4xl mx-auto max-w-[100rem]  font-extrabold">
             <div className="flex text-center md:mx-0 text-bordermaroon pb-4 border-b-[3px] border-bordermaroon">
               {props.title}
             </div>

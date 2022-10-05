@@ -37,8 +37,14 @@ function Navbar(props) {
             closeBar={setSidebar}
           />
 
+          <div
+            className={`fixed top-0 left-0 z-40  bg-black opacity-0  duration-200 ease-in-out ${
+              sidebar && "h-screen w-screen opacity-50"
+            }`}
+          ></div>
+
           {/*browser logo begin*/}
-          <div className="inline-flex justify-self-center ml-auto mr-auto">
+          <div className="flex justify-self-center ml-auto mr-auto">
             <a href="/">
               <img
                 src="/Atom_Logo.png"
