@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontWeight: {
-      headerbold: 500,
+      headerbold: 400,
     },
     fontFamily: {
       exo: ["exo", "sans-serif"],
@@ -16,11 +16,12 @@ module.exports = {
     extend: {
       colors: {
         default: "#FFF8F8",
-        defaultDark: "#FFF8F8",
+        defaultDark: "#97266D",
 
         bordermaroon: "#97266D",
         textmaroon: "#9F4040",
         headermaroon: "#6B243F",
+        textpink: "#BB5194",
       },
       keyframes: {
         wiggle: {

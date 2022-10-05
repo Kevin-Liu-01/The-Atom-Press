@@ -10,14 +10,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <Head>
         {" "}
         <title>The Atom Press</title>
-        <link
-          href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <noscript>You need to enable JavaScript to run this app.</noscript>
 

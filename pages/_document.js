@@ -3,7 +3,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
 
         <meta
           name="description"
@@ -32,6 +32,14 @@ export default function Document() {
           href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"
           integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB"
           crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <body>

@@ -18,7 +18,7 @@ function Home() {
           {/*Section 1*/}
           <div className="grid col-span-1 md:col-span-3">
             {/*Row 1*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl">
+            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -38,7 +38,7 @@ function Home() {
               </div>
             </div>
             {/*Row 2*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl">
+            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -62,7 +62,7 @@ function Home() {
           {/*Section 2*/}
           <div className="grid col-span-1 md:col-span-4">
             {/*Row 1*/}
-            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl">
+            <div className="flex row-span-1 drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
                   <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
@@ -90,7 +90,7 @@ function Home() {
               </div>
             </div>
             {/*Row 2*/}
-            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl">
+            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Recently:
@@ -116,7 +116,7 @@ function Home() {
               </div>
             </div>
             {/*Row 3*/}
-            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl">
+            <div className="flex drop-shadow-lg md:mr-12 mt-10 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Lorem Ipsum
