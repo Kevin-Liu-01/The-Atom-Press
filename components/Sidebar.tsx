@@ -17,8 +17,8 @@ function Sidebar(props) {
       className={`absolute top-0 left-0 md:fixed z-50 w-full md:inset-0  h-screen md:h-full bg-default md:bg-transparent drop-shadow-lg md:drop-shadow-none ease-in-out duration-300
       ${
         props.showSidebar
-          ? "md:translate-x-0 translate-y-0"
-          : "md:translate-x-[-100%] translate-y-[-100%]"
+          ? "md:translate-x-0 md:translate-y-0 translate-y-0"
+          : "md:translate-x-[-100%] md:translate-y-0 translate-y-[-100%]"
       }`}
     >
       {" "}
