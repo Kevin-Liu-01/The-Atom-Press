@@ -35,7 +35,7 @@ function Category(props) {
             </svg>
           </button>
           <header className="flex justify-center col-span-2 md:col-span-1 font-exo text-3xl md:text-4xl mx-auto max-w-[100rem]  font-extrabold">
-            <div className="flex text-center md:mx-0 text-bordermaroon pb-4 border-b-[3px] border-bordermaroon">
+            <div className="flex text-center md:mx-0 text-bordermaroon pb-4 border-b-[3px] border-bordermaroon headerbold">
               {props.title}
             </div>
           </header>
@@ -52,7 +52,7 @@ function Category(props) {
               >
                 <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                   <div className="grid grid-cols-3">
-                    <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                    <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                       {item.name}
                     </div>
                     <div className="flex justify-end">
@@ -95,13 +95,13 @@ function Category(props) {
                   </div>
 
                   <div className="flex ml-4 my-auto">
-                    <div className="flex my-auto text-headermaroon font-headerbold font-exo text-3xl">
+                    <div className="flex my-auto text-headermaroon headerbold font-exo text-3xl">
                       {item.author}
                     </div>
-                    <div className="flex mx-2 my-auto text-headermaroon font-headerbold font-exo text-3xl">
+                    <div className="flex mx-2 my-auto text-headermaroon headerbold font-exo text-3xl">
                       -
                     </div>
-                    <div className="flex  my-auto text-headermaroon font-headerbold font-exo text-3xl">
+                    <div className="flex  my-auto text-headermaroon headerbold font-exo text-3xl">
                       {item.name}
                     </div>
                   </div>

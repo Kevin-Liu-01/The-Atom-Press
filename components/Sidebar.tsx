@@ -24,7 +24,9 @@ function Sidebar(props) {
       {" "}
       <div className="relative pl-4 pb-4 md:pb-0 w-full max-w-2xl h-full md:h-viewscreen font-quicksand md:bg-default md:drop-shadow-lg text-textpink  overflow-auto ">
         <div className="flex justify-between place-content-center items-start p-4  text-3xl">
-          <div className="font-extrabold my-auto">Categories</div>
+          <div className="headerbolder my-auto text-defaultDark">
+            Categories
+          </div>
           <button onClick={() => props.closeBar(false)}>
             <svg
               width="75"
@@ -46,8 +48,10 @@ function Sidebar(props) {
           <a
             key={item.name}
             href={item.href}
-            className={`flex mt-2 rounded-l-lg justify-between place-content-center items-start p-4 font-headerbold text-2xl hover:bg-defaultDark  hover:text-default  duration-150 ${
-              item.name === props.page ? "bg-defaultDark text-default" : ""
+            className={`flex mt-2 rounded-l-lg justify-between place-content-center items-start p-4 text-2xl hover:bg-defaultDark  hover:text-default  duration-150 ${
+              item.name === props.page
+                ? "bg-defaultDark text-default headerbold"
+                : ""
             }`}
           >
             {item.name}

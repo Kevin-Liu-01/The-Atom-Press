@@ -19,19 +19,23 @@ function Home() {
             >
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
-                  <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
-                    Opinion: Despacito is the Best Song
+                  <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                    <div className="inline ">Opinion</div>: Despacito is the
+                    Best Song
                   </div>
                   <div className="flex justify-end">
                     <UserCircleIcon className="text-headermaroon h-[75px]" />
                   </div>
                 </div>
-                <div className="position-relative py-8 ">
+                <div className=" py-8">
                   <img
                     src="https://www.india.com/wp-content/uploads/2017/07/Despacito.jpg"
                     alt="Despacito"
                     className="rounded-xl overflow-hidden"
                   ></img>
+                  <p className="text-ellipsis italic font-quicksand text-xl p-1">
+                    By John Doe
+                  </p>
                 </div>
               </div>
             </a>
@@ -42,19 +46,22 @@ function Home() {
             >
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
-                  <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                  <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                     Halloween Dance - 10/24/2022
                   </div>
                   <div className="flex justify-end">
                     <UserCircleIcon className="text-headermaroon h-[75px]" />
                   </div>
                 </div>
-                <div className="position-relative py-8 ">
+                <div className=" py-8 ">
                   <img
                     src="https://www.history.com/.image/c_fill%2Ccs_srgb%2Cfl_progressive%2Ch_400%2Cq_auto:good%2Cw_620/MTU4MDgyMjQyMTM5MTM3ODE3/halloween.jpg"
                     alt="Despacito"
                     className="rounded-xl overflow-hidden"
                   ></img>
+                  <p className="text-ellipsis italic font-quicksand text-xl p-1">
+                    By John Doe
+                  </p>
                 </div>
               </div>
             </a>
@@ -66,7 +73,7 @@ function Home() {
             <div className="flex row-span-1 drop-shadow-lg md:mr-12  w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
                 <div className="grid grid-cols-3">
-                  <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                  <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                     Welcome to the Atom Press!
                   </div>
                   <div className="flex justify-end">
@@ -93,7 +100,7 @@ function Home() {
             {/*Row 2*/}
             <div className="flex drop-shadow-lg md:mr-12 w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
-                <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Recently:
                 </div>
 
@@ -119,7 +126,7 @@ function Home() {
             {/*Row 3*/}
             <div className="flex drop-shadow-lg md:mr-12  w-[100%] overflow-hidden bg-white place-content-center rounded-xl hover:scale-[1.02] duration-200 ease-in-out">
               <div className="p-6 w-[100%] border-b-4 border-bordermaroon">
-                <div className="col-span-2 text-3xl font-headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
+                <div className="col-span-2 text-3xl headerbold tracking-tight text-headermaroon sm:text-4xl text-center md:text-left font-exo">
                   Lorem Ipsum
                 </div>
 

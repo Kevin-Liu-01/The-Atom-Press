@@ -11,7 +11,7 @@ function Home() {
       <div className=" pt-3 ">
         <div className="px-8 mx-auto max-w-[100rem]">
           <div className="px-8 my-8 md:my-0 bg-white drop-shadow-lg rounded-lg">
-            <header className=" py-6 font-exo font-headerbold tracking-tight text-headermaroon  w-[100%] border-b-2 border-bordermaroon grid grid-cols-1 md:grid-cols-2">
+            <header className=" py-6 font-exo headerbold tracking-tight text-headermaroon  w-[100%] border-b-2 border-bordermaroon grid grid-cols-1 md:grid-cols-2">
               <div className="flex md:justify-start text-4xl my-auto">
                 Sample Article
               </div>

@@ -6,9 +6,6 @@ module.exports = {
     "./public/**/*.html",
   ],
   theme: {
-    fontWeight: {
-      headerbold: 400,
-    },
     fontFamily: {
       exo: ["exo", "sans-serif"],
       quicksand: ["quicksand", "sans-serif"],
